@@ -1,3 +1,3 @@
-from golang:1.11-alpine
+from golang:latest
 
 RUN go get -u github.com/swaggo/swag/cmd/swag
